@@ -1,62 +1,85 @@
-<section class="container">
-    <div>
-        <img src="" alt="">
-        <div>Partagez cette page</div>
-        <img src="" alt="">
-        <img src="" alt="">
-        <img src="" alt="">
-        <img src="" alt="">
-    </div>
-    <div>
-        <div>
-            <h1>Connectez-vous à nous</h1>
-            <div>
-                Nous cherchons toujours à garder le contact avec les personnes pour qui un avenir durable est important.
-            </div>
-            <div>
-                <img src="" alt="">
-                <img src="" alt="">
-                <img src="" alt="">
-                <img src="" alt="">
-            </div>
+<footer>
+    <div class="foo-first">
+        <div class="foo-icon">
+            <a href="">
+                <img src="/images/share.png" alt="">
+            </a>
         </div>
-        <div>
-            <h1>Nous joindre</h1>
-            <div>
-                Contactez Unilever et ses équipes de spécialistes ou trouvez des contacts du monde entier.
-            </div>
-            <div>
-                <div>Nous joindre</div>
-                <div><img src="" alt=""></div>
-            </div>
+        <h3>Partagez cette page</h3>
+        <div class="foo-icon">
+            <a href="">
+                <img src="/images/face.png" alt="">
+            </a>
+        </div>
+        <div class="foo-icon">
+            <a href="">
+                <img src="/images/twit.png" alt="">
+            </a>
+        </div>
+        <div class="foo-icon">
+            <a href="">
+                <img src="/images/insta.png" alt="">
+            </a>
+        </div>
+        <div class="foo-icon">
+            <a href="">
+                <img src="/images/link.png" alt="">
+            </a>
         </div>
     </div>
-    <div>
-        <div>
-            <div>Unilever France</div>
+    <div class="foo-second">
+        <div class="foo-second-bloc">
+            <h2 class="subtitle-primary">Connectez vous à nous</h2>
+            <div class="paragraph">Nous cherchons toujours à garder le contact avec les personnes pour qui un avenir durable est important.</div>
+            <div class="foo-second-social">
+                <div class="foo-icon">
+                    <a href="">
+                        <img src="/images/face-up.png" alt="">
+                    </a>
+                </div>
+                <div class="foo-icon">
+                    <a href="">
+                        <img src="/images/twit-up.png" alt="">
+                    </a>
+                </div>
+                <div class="foo-icon">
+                    <a href="">
+                        <img src="/images/insta-up.png" alt="">
+                    </a>
+                </div>
+                <div class="foo-icon">
+                    <a href="">
+                        <img src="/images/link-up.png" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="foo-second-bloc">
+            <h2 class="subtitle-primary">Nous joindre</h2>
+            <div class="paragraph">Contactez Unilever et ses équipes de spécialistes ou trouvez des contacts du monde entier.</div>
+            <div class="foo-join-master">
+                <div class="foo-join">Nous Joindre</div> <div class="foo-join foo-join-icon"> <img src="/images/play.png" alt=""> </div>
+            </div>
+        </div>
+    </div>
+    <div class="foo-third">
+        <div class="foo-sub-first">
+            <div>
+                <div class="foo-logo-label">Unilever</div>
+            </div>
             <div>© Unilever 2022</div>
-            <div>
-                <a href="">Contactez-nous</a>
-                <a href="">Qu'y a-t-il dans nos produits ?</a>
-                <a href="">Mentions légales</a>
-                <a href="">Accessibilité</a>
-                <a href="">Avis relatif aux Cookies</a>
-                <a href="">Avis de Confidentialite</a>
-                <a href="">Authenticité des avis</a>
-                <a href="">Authenticité des avis</a>
-                <a href="">Sitemap</a>
-                <a href="">Recyclage</a>
+            <div class="link-foo-group">
+                <a class="footer-third-link" href="">Contactez nous</a>
+                <a class="footer-third-link" href="">Qu'y a-t-il dans nos produits</a>
+                <a class="footer-third-link" href="">Mentions légales</a>
+                <a class="footer-third-link" href="">Accessibilité</a>
+                <a class="footer-third-link" href="">Avis relatifs aux Cookies</a>
+                <a class="footer-third-link" href="">Avis de Confidentialité</a>
+                <a class="footer-third-link" href="">SitesMaps</a>
             </div>
         </div>
-        <div>
-            <img src="" alt="">
+        <div class="foo-sub-second">
+            <img src="https://www.unilever.fr/assets/8ada3bf5.webp" />
         </div>
     </div>
-</section>
-
-
-
-
-
-
-
+</footer>

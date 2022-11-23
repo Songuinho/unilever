@@ -133,9 +133,9 @@
 
                 <nav>
                     <ul>
-                        <li class=" {{ $fit == 'entreprise'? 'onfocus' : '' }} "><a href="">Notre entreprise</a></li>
-                        <li class=" {{ $fit == 'marques'? 'onfocus' : '' }} "><a href="">Marques</a></li>
-                        <li class=" {{ $fit == 'planete'? 'onfocus' : '' }} "><a href="">Planète et société</a></li>
+                        <li class=" {{ $fit == 'entreprise'? 'onfocus' : '' }} "><a href="{{ route('entreprise') }}">Notre entreprise</a></li>
+                        <li class=" {{ $fit == 'marques'? 'onfocus' : '' }} "><a href="{{ route('marques') }}">Marques</a></li>
+                        <li class=" {{ $fit == 'planete'? 'onfocus' : '' }} "><a href="{{ route('planeteSociete') }}">Planète et société</a></li>
                         <li><a class="no_ancre dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false"> Actualités </a></li>
                         <li><a class="no_ancre dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false"> Unilever carière </a></li>
                     </ul>

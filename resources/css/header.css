@@ -19,6 +19,10 @@ body{
     position: relative;
     top: 8px;
 }
+
+::placeholder{
+    color: #fff;
+}
 .subSide_right > a{
     color: #fff;
     margin-right: 10px;

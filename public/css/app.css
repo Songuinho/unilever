@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: UnileverShilling, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.subSide_right{
+    display: flex;
+    position: absolute;
+    left: 62%;
+    top: 4%;
+    align-items: center;
+}
+.subSide_right > p{
+    color: #fff;
+    margin-right: 10px;
+    font-size: 14px;
+    position: relative;
+    top: 8px;
+}
+.subSide_right > a{
+    color: #fff;
+    margin-right: 10px;
+    font-size: 13px;
+    font-weight: bolder;
+    text-decoration-color: #00e1ff;
+}
+.subSide_right > a:hover{
+    color: #fff;
+    text-decoration: none;
+}
+.subSide_right > input{
+    height: 37px;
+    width: 210px;
+    background-color: #1b34d6;
+    text-align: center;
+    box-sizing: border-box;
+    border: none;
+    position: relative;
+    left: 25px;
+}
+.subSide_right > input[text]{
+    font-weight: bolder;
+    color: #fff;
+}
+header{
+    width: auto;
+    background-color: #005eff;
+    height: 144.5px;
+}
+
+nav{
+    position: absolute;
+    left: 42em;
+    top: 6.5em;
+}
+
+nav > ul{
+    display: flex;
+}
+
+nav  ul  li{
+    list-style: none;
+    font-size: 15px;
+    width: 130px;
+    height: 38px;
+    position: relative;
+    text-align: center;
+}
+nav > ul > li:hover{
+    border-bottom: 5px solid;
+    border-bottom-color: #1b3bcc;
+}
+nav > ul > li:hover > a{
+    text-decoration: none;
+    color: #fff;
+}
+nav > ul > li > a{
+    color: #fff;
+    font-weight: bolder;
+}
+.onfocus{
+    border-bottom: 5px solid;
+    border-bottom-color: #0b87cf;
+}
+.slide_bande{
+    background-color:#1b3bcc;
+     height:52px;
+}
+.slide_bande div a{
+    position: relative;
+    top: 14px;
+    left: 14px;
+    font-size: 12.5px;
+    color: #fff;
+    font-weight: bolder;
+    text-decoration-color: #00e1ff;
+}
+.slide_bande > div > a:hover{
+    text-decoration: none;
+    color: #fff;
+}
+.slide_bande > p{
+    position: relative;
+    left: 7em;
+    font-size: 12px;
+    color: #fff;
+    bottom: 4px;
+}
+.side_left{
+    width: 144px; height: 144px;
+    background-color: white;
+}
+.no_ancre{
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+

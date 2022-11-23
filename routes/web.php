@@ -14,5 +14,14 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('layout.home');
+    return view('master')->with(["fit" => ""]);
+});
+Route::get('/marques', function () {
+    return view('layouts.marques')->name('marques');
+});
+Route::get('/notre entreprise', function () {
+    return view('layouts.notreEntreprise')->name('entreprise');
+});
+Route::get('/planete et societe', function () {
+    return view('layouts.planeteEtSociete')->name('planeteSociete');
 });

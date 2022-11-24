@@ -1,4 +1,4 @@
-@extends('master', ["fit" => "marques"])
+@extends('master', ["fit" => "marques", "fot" => "marques"])
 
 @section('heading')
     Marques

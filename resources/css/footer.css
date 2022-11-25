@@ -21,6 +21,9 @@
     padding: 1.5em;
     margin: 0em 10em;
 }
+footer{
+    background: #f7f7ef;
+}
 .foo-second-social {
     display: flex;
     margin: 2em 0em;

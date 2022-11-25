@@ -28,3 +28,7 @@ Route::get('/notre_entreprise', function () {
 Route::get('/planete_et_societe', function () {
     return view('layouts.planeteSociete');
 })->name('planeteSociete');
+
+Route::get('/home', function(){
+    return view('layout.home');
+});

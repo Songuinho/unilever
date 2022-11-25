@@ -126,16 +126,16 @@
 
             <div class="side_right">
                 <div class="subSide_right">
-                    <p><img  src="https://cdn.sanity.io/images/92ui5egz/production/d1d7c5d3e6904118d2f655eb426ca7fb3682ee66-192x170.svg" alt="" width="10px" height="10px"  aria-hidden="true" loading="lazy">Unilever France </p>
+                    <p><img class="text-white" src="https://cdn.sanity.io/images/92ui5egz/production/d1d7c5d3e6904118d2f655eb426ca7fb3682ee66-192x170.svg" alt="" width="30px" height="17px" >Unilever France </p>
                     <a href="#">Changer l'emplacement</a>
                     <input type="seach" placeholder="Rechercher dans le site">
                 </div>
 
                 <nav>
                     <ul>
-                        <li class=" {{ $fit == 'entreprise'? 'onfocus' : '' }} "><a class="{{ $fot == 'entreprise'? 'no-line' : '' }}" href="{{ route('entreprise') }}">Notre entreprise</a></li>
-                        <li class=" {{ $fit == 'marques'? 'onfocus' : '' }} "><a class="{{ $fot == 'marques'? 'no-line' : '' }}" href="{{ route('marques') }}">Marques</a></li>
-                        <li class=" {{ $fit == 'planete'? 'onfocus' : '' }} "><a class="{{ $fot == 'planete'? 'no-line' : '' }}" href="{{ route('planeteSociete') }}">Planète et société</a></li>
+                        <li class=" {{ $fit == 'entreprise'? 'onfocus' : '' }} "> <a class="" href="{{ route('entreprise') }}">Notre entreprise</a></li>
+                        <li class=" {{ $fit == 'marques'? 'onfocus' : '' }} "> <a class="" href="{{ route('marques') }}">Marques</a></li>
+                        <li class=" {{ $fit == 'planete'? 'onfocus' : '' }} "> <a class="" href="{{ route('planeteSociete') }}">Planète et société</a></li>
                         <li><a class="no_ancre dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false"> Actualités </a></li>
                         <li><a class="no_ancre dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false"> Unilever carière </a></li>
                     </ul>
@@ -146,8 +146,8 @@
     </header>
 
     <div class="slide_bande">
-        <div class="btn-group dropend">
-            <a href="#" class="dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+        <div class=" dropend">
+            <a href="{{ route('master') }}" class="dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
                 Accueil
             </a>
         </div>

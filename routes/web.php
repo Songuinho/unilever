@@ -14,8 +14,8 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('master')->with(["fit" => "", "fot" => ""]);
-});
+    return view('master')->with(["fit" => ""]);
+})->name('master');
 
 Route::get('/marques', function () {
     return view('layouts.marques');

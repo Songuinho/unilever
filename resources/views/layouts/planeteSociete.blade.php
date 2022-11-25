@@ -1,4 +1,4 @@
-@extends('master', ["fit" => "planete", "fot" => "entreprise"])
+@extends('master', ["fit" => "planete"])
 
 @section('heading')
 Planète et société

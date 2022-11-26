@@ -621,7 +621,8 @@ footer{
     justify-content: space-between;
 }
 .slide-two > img {
-    height: 35rem;
+    height: 33rem;
+    width: 54em;
 }
 .slide-one {
     display: flex;
